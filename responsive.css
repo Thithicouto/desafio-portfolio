@@ -1,0 +1,186 @@
+
+@media (max-width: 767px) {
+    
+    .menu__list {
+        display: none;
+    }
+
+    .menu__title {
+        display: block;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .menu__title img {
+        display: none;
+    }
+
+    .menu__list__item {
+        display: none;
+    }
+
+
+        .title__div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .title__profile {
+            order: -1; 
+            margin-bottom: 10px; 
+        }
+    
+        .title__container {
+            text-align: center;
+            margin: 0 15px; 
+        }
+    
+        .title__links {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .title__links__item {
+            margin: 0 5px;
+        }    
+
+    .skills {
+        text-align: center; 
+        margin: 0 auto; 
+        max-width: 90%; 
+    }
+
+    .hobbies {
+        text-align: center; 
+        margin: 0 auto; 
+        max-width: 90%; 
+    }
+
+    .academic__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .academic__university-logo {
+        margin-bottom: 10px; 
+    }
+
+    .academic__courses__box {
+        margin: 0; 
+    }
+
+    .academic__courses__list {
+        padding: 0; 
+    }
+
+    .academic__courses__item__title,
+    .academic__courses__item__subtitle {
+        margin: 5px 0; 
+    }
+
+    .experiencie__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 10px; 
+    }
+
+    .experience__img__decodificador,
+    .experience__img__jogo {
+        margin-bottom: 10px; 
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .experience__info {
+        margin-bottom: 10px; 
+    }
+
+    .experience__repo {
+        margin-top: 10px; 
+    }
+
+    .formcontato__img {
+        display: none; 
+    }
+
+    .formcontato__text {
+        width: 100%; 
+        margin-left: 30px;
+    }
+
+    .formcontato__form {
+        width: 100%; 
+        
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .menu__list {
+        display: none;
+    }
+
+    .menu__title {
+        margin-right: 20px;
+    }
+
+    .menu__list__item {
+        margin-left: 20px;
+    }
+
+    
+    .title__profile {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .title__links__item {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .academic__university-logo {
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .experience__info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 80%; 
+        text-align: center; 
+        font-size: 90%; 
+    }
+
+    .experience__img__decodificador,
+    .experience__img__jogo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .formcontato__img {
+        display: none; 
+    }
+
+    .formcontato__text {
+        width: 100%; 
+        margin-left: 30px;
+    }
+
+    .formcontato__form {
+        width: 100%; 
+    }
+}
+
+
+
+
+
